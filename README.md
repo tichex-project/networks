@@ -1,4 +1,4 @@
-#Tichex Testnets
+# Tichex Testnets
 
 This repo collects the genesis and configuration files for the various Tichex testnets. It exists so the Tichex Blockchain repo does not get bogged down with large genesis files and status updates.
 
