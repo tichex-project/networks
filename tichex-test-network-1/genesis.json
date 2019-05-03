@@ -1,0 +1,79 @@
+{
+  "genesis_time": "2019-05-03T20:52:32.204335807Z",
+  "chain_id": "tichex-test-network-1",
+  "consensus_params": {
+    "block_size": {
+      "max_bytes": "22020096",
+      "max_gas": "-1"
+    },
+    "evidence": {
+      "max_age": "100000"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    }
+  },
+  "validators": [
+    {
+      "address": "36F5485491798ECE07A80AB4CDDF4BFF2509FBC5",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "byGGPLLAIcU4z+IV06E+bso6wGbNuHX7569osrgZSu8="
+      },
+      "power": "10",
+      "name": ""
+    }
+  ],
+  "app_hash": "",
+  "app_state": {
+    "auth": {
+      "collected_fees": null,
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      }
+    },
+    "bank": {
+      "send_enabled": true
+    },
+    "accounts": [
+      {
+        "address": "tichex1qeqds8nn73ezjt0wgyv0vhxt8mxh6nld73w2f4",
+        "coins": [
+          {
+            "denom": "theur",
+            "amount": "1000"
+          },
+          {
+            "denom": "thx",
+            "amount": "1000"
+          }
+        ],
+        "public_key": null,
+        "account_number": "0",
+        "sequence": "0"
+      },
+      {
+        "address": "tichex1q6yqy5wv8l96nvdxj6metdeyydzwtz67825vxw",
+        "coins": [
+          {
+            "denom": "theur",
+            "amount": "1000"
+          },
+          {
+            "denom": "thx",
+            "amount": "1000"
+          }
+        ],
+        "public_key": null,
+        "account_number": "0",
+        "sequence": "0"
+      }
+    ]
+  }
+}
